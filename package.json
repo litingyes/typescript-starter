@@ -1,0 +1,29 @@
+{
+  "name": "typescript-starter",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "commit": "git add . && git-cz"
+  },
+  "keywords": [],
+  "author": "liting-yes <luz.liting@gmail.com> (https://liting.ink/)",
+  "license": "",
+  "devDependencies": {
+    "@commitlint/cli": "^17.6.5",
+    "@commitlint/config-conventional": "^17.6.5",
+    "@commitlint/cz-commitlint": "^17.5.0",
+    "commitizen": "^4.3.0",
+    "inquirer": "8"
+  },
+  "config": {
+    "commitizen": {
+      "path": "@commitlint/cz-commitlint"
+    }
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  }
+}
