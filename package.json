@@ -1,6 +1,6 @@
 {
   "name": "typescript-starter",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "description": "",
   "author": "liting-yes <luz.liting@gmail.com> (https://liting.ink/)",
   "license": "MIT",
@@ -8,6 +8,7 @@
   "scripts": {
     "lint": "eslint .",
     "commit": "git add . && git-cz",
+    "release": "bumpp && npm publish",
     "prepare": "npx simple-git-hooks"
   },
   "devDependencies": {
@@ -16,6 +17,7 @@
     "@commitlint/config-conventional": "^17.6.5",
     "@commitlint/cz-commitlint": "^17.5.0",
     "@tsconfig/esm": "^1.0.3",
+    "bumpp": "^9.1.0",
     "commitizen": "^4.3.0",
     "eslint": "^8.41.0",
     "inquirer": "8",
