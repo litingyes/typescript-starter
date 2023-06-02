@@ -2,13 +2,14 @@
   "name": "typescript-starter",
   "version": "0.1.0",
   "description": "",
-  "scripts": {
-    "lint": "eslint .",
-    "commit": "git add . && git-cz"
-  },
-  "keywords": [],
   "author": "liting-yes <luz.liting@gmail.com> (https://liting.ink/)",
   "license": "MIT",
+  "keywords": [],
+  "scripts": {
+    "lint": "eslint .",
+    "commit": "git add . && git-cz",
+    "prepare": "npx simple-git-hooks"
+  },
   "devDependencies": {
     "@antfu/eslint-config-ts": "^0.39.4",
     "@commitlint/cli": "^17.6.5",
