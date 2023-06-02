@@ -3,3 +3,6 @@
 
 # Folder where front-end packages are stored
 node_modules
+
+# output dir
+dist
