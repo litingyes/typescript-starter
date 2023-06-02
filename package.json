@@ -2,20 +2,24 @@
   "name": "typescript-starter",
   "version": "0.1.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
+    "lint": "eslint .",
     "commit": "git add . && git-cz"
   },
   "keywords": [],
   "author": "liting-yes <luz.liting@gmail.com> (https://liting.ink/)",
-  "license": "",
+  "license": "MIT",
   "devDependencies": {
+    "@antfu/eslint-config-ts": "^0.39.4",
     "@commitlint/cli": "^17.6.5",
     "@commitlint/config-conventional": "^17.6.5",
     "@commitlint/cz-commitlint": "^17.5.0",
     "@tsconfig/esm": "^1.0.3",
     "commitizen": "^4.3.0",
+    "eslint": "^8.41.0",
     "inquirer": "8",
+    "lint-staged": "^13.2.2",
+    "simple-git-hooks": "^2.8.1",
     "typescript": "^5.1.3"
   },
   "config": {
@@ -27,5 +31,11 @@
     "extends": [
       "@commitlint/config-conventional"
     ]
+  },
+  "simple-git-hooks": {
+    "pre-commit": "pnpm lint-staged"
+  },
+  "lint-staged": {
+    "*": "eslint --fix"
   }
 }
