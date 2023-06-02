@@ -2,10 +2,14 @@
   "name": "typescript-starter",
   "type": "module",
   "version": "0.0.0",
-  "description": "",
+  "description": "A typescript project startup template",
   "author": "liting-yes <luz.liting@gmail.com> (https://liting.ink/)",
   "license": "MIT",
-  "keywords": [],
+  "keywords": [
+    "typescript",
+    "template",
+    "starter"
+  ],
   "exports": {
     ".": {
       "require": "./dist/index.cjs",
