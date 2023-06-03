@@ -17,3 +17,5 @@ A typescript project startup template
   - author
   - license
   - keywords
+  - bugs
+  - homepage
