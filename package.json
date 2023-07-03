@@ -41,7 +41,7 @@
     "@tsconfig/esm": "^1.0.4",
     "bumpp": "^9.1.1",
     "commitizen": "^4.3.0",
-    "eslint": "^8.43.0",
+    "eslint": "^8.44.0",
     "inquirer": "8",
     "lint-staged": "^13.2.3",
     "simple-git-hooks": "^2.8.1",
