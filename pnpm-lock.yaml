@@ -17,9 +17,12 @@ devDependencies:
   '@commitlint/cz-commitlint':
     specifier: ^17.5.0
     version: 17.5.0(commitizen@4.3.0)(inquirer@8.2.5)
-  '@tsconfig/esm':
-    specifier: ^1.0.4
-    version: 1.0.4
+  '@tsconfig/node-lts':
+    specifier: ^18.12.3
+    version: 18.12.3
+  '@tsconfig/strictest':
+    specifier: ^2.0.1
+    version: 2.0.1
   bumpp:
     specifier: ^9.1.1
     version: 9.1.1
@@ -926,8 +929,8 @@ packages:
       rollup: 3.23.0
     dev: true
 
-  /@tsconfig/esm@1.0.4:
-    resolution: {integrity: sha512-bix9CWljCxyD06nGQRDYdmTw0wevvEDyrLKjbDocGV31JQYbfqqgMV1yFeJ9aDgorKQ9yDLrak8poiggsB5Liw==}
+  /@tsconfig/node-lts@18.12.3:
+    resolution: {integrity: sha512-a8FraAjwaGKERCO5PowJeeCE/0Kv1whqegfNwJRIPG08Z5QDr6Kl1CgRrdIjGQtUCpSm+/BDCGeRKfAF1mg+ZQ==}
     dev: true
 
   /@tsconfig/node10@1.0.9:
@@ -944,6 +947,10 @@ packages:
 
   /@tsconfig/node16@1.0.4:
     resolution: {integrity: sha512-vxhUy4J8lyeyinH7Azl1pdd43GJhZH/tP2weN8TntQblOY+A0XbT8DJk1/oCPuOOyg/Ja757rG0CgHcWC8OfMA==}
+    dev: true
+
+  /@tsconfig/strictest@2.0.1:
+    resolution: {integrity: sha512-7JHHCbyCsGUxLd0pDbp24yz3zjxw2t673W5oAP6HCEdr/UUhaRhYd3SSnUsGCk+VnPVJVA4mXROzbhI+nyIk+w==}
     dev: true
 
   /@types/estree@1.0.1:
