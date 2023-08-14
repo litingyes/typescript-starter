@@ -37,7 +37,7 @@
     "@antfu/eslint-config-ts": "^0.40.0",
     "@commitlint/cli": "^17.7.1",
     "@commitlint/config-conventional": "^17.6.7",
-    "@commitlint/cz-commitlint": "^17.6.7",
+    "@commitlint/cz-commitlint": "^17.7.1",
     "@tsconfig/node-lts": "^18.12.3",
     "@tsconfig/strictest": "^2.0.1",
     "bumpp": "^9.1.1",
