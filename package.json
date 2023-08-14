@@ -44,7 +44,7 @@
     "commitizen": "^4.3.0",
     "eslint": "^8.46.0",
     "inquirer": "8",
-    "lint-staged": "^13.2.3",
+    "lint-staged": "^13.3.0",
     "simple-git-hooks": "^2.9.0",
     "typescript": "^5.1.6",
     "unbuild": "^1.2.1"
