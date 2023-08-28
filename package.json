@@ -42,7 +42,7 @@
     "@tsconfig/strictest": "^2.0.1",
     "bumpp": "^9.2.0",
     "commitizen": "^4.3.0",
-    "eslint": "^8.47.0",
+    "eslint": "^8.48.0",
     "inquirer": "8",
     "lint-staged": "^13.3.0",
     "simple-git-hooks": "^2.9.0",
