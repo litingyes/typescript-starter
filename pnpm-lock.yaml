@@ -18,8 +18,8 @@ devDependencies:
     specifier: ^17.7.1
     version: 17.7.1(commitizen@4.3.0)(inquirer@8.2.5)
   '@tsconfig/node-lts':
-    specifier: ^18.12.3
-    version: 18.12.3
+    specifier: ^18.12.5
+    version: 18.12.5
   '@tsconfig/strictest':
     specifier: ^2.0.1
     version: 2.0.1
@@ -930,8 +930,8 @@ packages:
       rollup: 3.23.0
     dev: true
 
-  /@tsconfig/node-lts@18.12.3:
-    resolution: {integrity: sha512-a8FraAjwaGKERCO5PowJeeCE/0Kv1whqegfNwJRIPG08Z5QDr6Kl1CgRrdIjGQtUCpSm+/BDCGeRKfAF1mg+ZQ==}
+  /@tsconfig/node-lts@18.12.5:
+    resolution: {integrity: sha512-KJZX0kQ5FBv77WDVzmQ9y1dUjaJCNXAAz3LSsg5cMwH0AUijVdDQtII+IVprEXdb13U9GjVOBxBzyRvr/ozPxw==}
     dev: true
 
   /@tsconfig/node10@1.0.9:
