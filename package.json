@@ -40,7 +40,7 @@
     "@commitlint/cz-commitlint": "^17.8.1",
     "@tsconfig/node-lts": "^18.12.5",
     "@tsconfig/strictest": "^2.0.2",
-    "bumpp": "^9.2.0",
+    "bumpp": "^9.2.1",
     "commitizen": "^4.3.0",
     "eslint": "^8.55.0",
     "inquirer": "8",
