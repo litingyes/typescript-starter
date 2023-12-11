@@ -46,7 +46,7 @@
     "inquirer": "8",
     "lint-staged": "^13.3.0",
     "simple-git-hooks": "^2.9.0",
-    "typescript": "^5.3.2",
+    "typescript": "^5.3.3",
     "unbuild": "^1.2.1"
   },
   "config": {
