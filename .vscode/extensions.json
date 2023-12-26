@@ -4,6 +4,7 @@
     "ms-vscode.vscode-typescript-next",
     "stringham.move-ts",
     "pmneo.tsimporter",
-    "christian-kohler.path-intellisense"
+    "christian-kohler.path-intellisense",
+    "streetsidesoftware.code-spell-checker"
   ]
 }
