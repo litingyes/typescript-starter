@@ -30,7 +30,7 @@
     "build": "unbuild",
     "lint": "oxlint --import-plugin && eslint .",
     "format": "oxlint --import-plugin --fix && eslint --fix .",
-    "commit": "git add . && git-cz",
+    "commit": "git-cz",
     "release": "bumpp && npm publish",
     "prepare": "npx simple-git-hooks"
   },
