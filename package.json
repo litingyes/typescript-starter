@@ -16,8 +16,8 @@
   ],
   "exports": {
     ".": {
-      "require": "./dist/index.cjs",
-      "import": "./dist/index.mjs"
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
     }
   },
   "main": "./dist/index.cjs",
@@ -28,7 +28,8 @@
   "scripts": {
     "dev": "unbuild --stub",
     "build": "unbuild",
-    "lint": "eslint .",
+    "lint": "oxlint --import-plugin && eslint .",
+    "format": "oxlint --import-plugin --fix && eslint --fix .",
     "commit": "git add . && git-cz",
     "release": "bumpp && npm publish",
     "prepare": "npx simple-git-hooks"
@@ -45,6 +46,7 @@
     "eslint": "^8.56.0",
     "inquirer": "8",
     "lint-staged": "^13.3.0",
+    "oxlint": "^0.0.22",
     "simple-git-hooks": "^2.9.0",
     "typescript": "^5.3.3",
     "unbuild": "^1.2.1"
@@ -63,6 +65,6 @@
     "pre-commit": "pnpm lint-staged"
   },
   "lint-staged": {
-    "*": "eslint --fix"
+    "*": "oxlint --import-plugin && eslint --fix"
   }
 }
