@@ -16,7 +16,7 @@ devDependencies:
     version: 17.8.1
   '@commitlint/cz-commitlint':
     specifier: ^19.2.0
-    version: 19.2.0(@types/node@20.12.2)(commitizen@4.3.0)(inquirer@9.2.17)(typescript@5.3.3)
+    version: 19.2.0(@types/node@20.12.2)(commitizen@4.3.0)(inquirer@9.2.18)(typescript@5.3.3)
   '@tsconfig/node-lts':
     specifier: ^18.12.5
     version: 18.12.5
@@ -33,8 +33,8 @@ devDependencies:
     specifier: ^8.56.0
     version: 8.56.0
   inquirer:
-    specifier: ^9.2.17
-    version: 9.2.17
+    specifier: ^9.2.18
+    version: 9.2.18
   lint-staged:
     specifier: ^13.3.0
     version: 13.3.0
@@ -437,7 +437,7 @@ packages:
       ajv: 8.12.0
     dev: true
 
-  /@commitlint/cz-commitlint@19.2.0(@types/node@20.12.2)(commitizen@4.3.0)(inquirer@9.2.17)(typescript@5.3.3):
+  /@commitlint/cz-commitlint@19.2.0(@types/node@20.12.2)(commitizen@4.3.0)(inquirer@9.2.18)(typescript@5.3.3):
     resolution: {integrity: sha512-kudzHMY9/GxflGyAWMiisiBq2UkyQL1D1eWjGKoC66qQ+5jxRYeDaiVwTdPxYMnmehftNcpksZATDYKqdPP0Wg==}
     engines: {node: '>=v18'}
     peerDependencies:
@@ -449,7 +449,7 @@ packages:
       '@commitlint/types': 19.0.3
       chalk: 5.3.0
       commitizen: 4.3.0(@types/node@20.12.2)(typescript@5.3.3)
-      inquirer: 9.2.17
+      inquirer: 9.2.18
       lodash.isplainobject: 4.0.6
       word-wrap: 1.2.5
     transitivePeerDependencies:
@@ -915,6 +915,11 @@ packages:
 
   /@humanwhocodes/object-schema@2.0.1:
     resolution: {integrity: sha512-dvuCeX5fC9dXgJn9t+X5atfmgQAzUOWqS1254Gh0m6i8wKd10ebXkfNKiRK+1GWi/yTvvLDHpoxLr0xxxeslWw==}
+    dev: true
+
+  /@inquirer/figures@1.0.0:
+    resolution: {integrity: sha512-3fw+7+77/duTnMJTeSS44wneszghI4tkr0m0xdIJabbYRe36ElzmsqyboMZ1nFRon6sT+ckVvYDVjwapKv+2sw==}
+    engines: {node: '>=18'}
     dev: true
 
   /@jridgewell/gen-mapping@0.3.3:
@@ -3307,17 +3312,17 @@ packages:
       wrap-ansi: 7.0.0
     dev: true
 
-  /inquirer@9.2.17:
-    resolution: {integrity: sha512-Vr3Ia2ud5sGnioURkE69endl4SkeJcMzTF6SosKcX5GALJfId7C+JvO5ZZb6y1LOXnEofCPbwzoQ1q0e8Gaduw==}
+  /inquirer@9.2.18:
+    resolution: {integrity: sha512-Qzm+UP7L9beFyycZ9Nxzqj7WBgeJIaT4Ue0+2bmQp9yZXiUW2azrmBnp3vlInMw1wXkUmaM0hiMcht7CjJzASw==}
     engines: {node: '>=18'}
     dependencies:
+      '@inquirer/figures': 1.0.0
       '@ljharb/through': 2.3.13
       ansi-escapes: 4.3.2
       chalk: 5.3.0
       cli-cursor: 3.1.0
       cli-width: 4.1.0
       external-editor: 3.1.0
-      figures: 3.2.0
       lodash: 4.17.21
       mute-stream: 1.0.0
       ora: 5.4.1
