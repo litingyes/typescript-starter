@@ -16,7 +16,7 @@ devDependencies:
     version: 17.8.1
   '@commitlint/cz-commitlint':
     specifier: ^19.2.0
-    version: 19.2.0(@types/node@20.12.2)(commitizen@4.3.0)(inquirer@9.2.19)(typescript@5.3.3)
+    version: 19.2.0(@types/node@20.12.2)(commitizen@4.3.0)(inquirer@9.2.20)(typescript@5.3.3)
   '@tsconfig/node-lts':
     specifier: ^18.12.5
     version: 18.12.5
@@ -33,8 +33,8 @@ devDependencies:
     specifier: ^8.56.0
     version: 8.56.0
   inquirer:
-    specifier: ^9.2.19
-    version: 9.2.19
+    specifier: ^9.2.20
+    version: 9.2.20
   lint-staged:
     specifier: ^13.3.0
     version: 13.3.0
@@ -437,7 +437,7 @@ packages:
       ajv: 8.12.0
     dev: true
 
-  /@commitlint/cz-commitlint@19.2.0(@types/node@20.12.2)(commitizen@4.3.0)(inquirer@9.2.19)(typescript@5.3.3):
+  /@commitlint/cz-commitlint@19.2.0(@types/node@20.12.2)(commitizen@4.3.0)(inquirer@9.2.20)(typescript@5.3.3):
     resolution: {integrity: sha512-kudzHMY9/GxflGyAWMiisiBq2UkyQL1D1eWjGKoC66qQ+5jxRYeDaiVwTdPxYMnmehftNcpksZATDYKqdPP0Wg==}
     engines: {node: '>=v18'}
     peerDependencies:
@@ -449,7 +449,7 @@ packages:
       '@commitlint/types': 19.0.3
       chalk: 5.3.0
       commitizen: 4.3.0(@types/node@20.12.2)(typescript@5.3.3)
-      inquirer: 9.2.19
+      inquirer: 9.2.20
       lodash.isplainobject: 4.0.6
       word-wrap: 1.2.5
     transitivePeerDependencies:
@@ -3312,8 +3312,8 @@ packages:
       wrap-ansi: 7.0.0
     dev: true
 
-  /inquirer@9.2.19:
-    resolution: {integrity: sha512-WpxOT71HGsFya6/mj5PUue0sWwbpbiPfAR+332zLj/siB0QA1PZM8v3GepegFV1Op189UxHUCF6y8AySdtOMVA==}
+  /inquirer@9.2.20:
+    resolution: {integrity: sha512-SFwJJPS+Ms75NV+wzFBHjirG4z3tzvis31h+9NyH1tqjIu2c7vCavlXILZ73q/nPYy8/aw4W+DNzLH5MjfYXiA==}
     engines: {node: '>=18'}
     dependencies:
       '@inquirer/figures': 1.0.1
