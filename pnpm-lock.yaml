@@ -16,7 +16,7 @@ devDependencies:
     version: 17.8.1
   '@commitlint/cz-commitlint':
     specifier: ^19.2.0
-    version: 19.2.0(@types/node@20.12.2)(commitizen@4.3.0)(inquirer@9.2.22)(typescript@5.3.3)
+    version: 19.2.0(@types/node@20.12.2)(commitizen@4.3.0)(inquirer@9.2.23)(typescript@5.3.3)
   '@tsconfig/node-lts':
     specifier: ^18.12.5
     version: 18.12.5
@@ -33,8 +33,8 @@ devDependencies:
     specifier: ^8.56.0
     version: 8.56.0
   inquirer:
-    specifier: ^9.2.22
-    version: 9.2.22
+    specifier: ^9.2.23
+    version: 9.2.23
   lint-staged:
     specifier: ^13.3.0
     version: 13.3.0
@@ -437,7 +437,7 @@ packages:
       ajv: 8.12.0
     dev: true
 
-  /@commitlint/cz-commitlint@19.2.0(@types/node@20.12.2)(commitizen@4.3.0)(inquirer@9.2.22)(typescript@5.3.3):
+  /@commitlint/cz-commitlint@19.2.0(@types/node@20.12.2)(commitizen@4.3.0)(inquirer@9.2.23)(typescript@5.3.3):
     resolution: {integrity: sha512-kudzHMY9/GxflGyAWMiisiBq2UkyQL1D1eWjGKoC66qQ+5jxRYeDaiVwTdPxYMnmehftNcpksZATDYKqdPP0Wg==}
     engines: {node: '>=v18'}
     peerDependencies:
@@ -449,7 +449,7 @@ packages:
       '@commitlint/types': 19.0.3
       chalk: 5.3.0
       commitizen: 4.3.0(@types/node@20.12.2)(typescript@5.3.3)
-      inquirer: 9.2.22
+      inquirer: 9.2.23
       lodash.isplainobject: 4.0.6
       word-wrap: 1.2.5
     transitivePeerDependencies:
@@ -917,8 +917,8 @@ packages:
     resolution: {integrity: sha512-dvuCeX5fC9dXgJn9t+X5atfmgQAzUOWqS1254Gh0m6i8wKd10ebXkfNKiRK+1GWi/yTvvLDHpoxLr0xxxeslWw==}
     dev: true
 
-  /@inquirer/figures@1.0.2:
-    resolution: {integrity: sha512-4F1MBwVr3c/m4bAUef6LgkvBfSjzwH+OfldgHqcuacWwSUetFebM2wi58WfG9uk1rR98U6GwLed4asLJbwdV5w==}
+  /@inquirer/figures@1.0.3:
+    resolution: {integrity: sha512-ErXXzENMH5pJt5/ssXV0DfWUZqly8nGzf0UcBV9xTnP+KyffE2mqyxIMBrZ8ijQck2nU0TQm40EQB53YreyWHw==}
     engines: {node: '>=18'}
     dev: true
 
@@ -3312,11 +3312,11 @@ packages:
       wrap-ansi: 7.0.0
     dev: true
 
-  /inquirer@9.2.22:
-    resolution: {integrity: sha512-SqLLa/Oe5rZUagTR9z+Zd6izyatHglbmbvVofo1KzuVB54YHleWzeHNLoR7FOICGOeQSqeLh1cordb3MzhGcEw==}
+  /inquirer@9.2.23:
+    resolution: {integrity: sha512-kod5s+FBPIDM2xiy9fu+6wdU/SkK5le5GS9lh4FEBjBHqiMgD9lLFbCbuqFNAjNL2ZOy9Wd9F694IOzN9pZHBA==}
     engines: {node: '>=18'}
     dependencies:
-      '@inquirer/figures': 1.0.2
+      '@inquirer/figures': 1.0.3
       '@ljharb/through': 2.3.13
       ansi-escapes: 4.3.2
       chalk: 5.3.0
