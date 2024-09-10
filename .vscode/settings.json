@@ -32,7 +32,6 @@
     "antfu",
     "bumpp",
     "changelogithub",
-    "commitlint",
-    "oxlint"
+    "commitlint"
   ]
 }
