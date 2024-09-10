@@ -16,11 +16,13 @@
   ],
   "exports": {
     ".": {
+      "types": "./dist/index.d.ts",
       "import": "./dist/index.mjs",
       "require": "./dist/index.cjs"
     }
   },
   "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "files": [
     "dist"
@@ -49,7 +51,7 @@
     "lint-staged": "^15.2.10",
     "oxlint": "^0.9.3",
     "typescript": "^5.3.3",
-    "unbuild": "^1.2.1"
+    "unbuild": "^2.0.0"
   },
   "config": {
     "commitizen": {
