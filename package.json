@@ -32,7 +32,7 @@
     "format": "oxlint --import-plugin --fix && eslint --fix .",
     "commit": "git-cz",
     "release": "bumpp && npm publish",
-    "prepare": "npx simple-git-hooks"
+    "prepare": "husky"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^3.5.0",
@@ -44,10 +44,10 @@
     "bumpp": "^9.2.1",
     "commitizen": "^4.3.0",
     "eslint": "^9.10.0",
+    "husky": "^9.1.5",
     "inquirer": "^10.2.2",
-    "lint-staged": "^13.3.0",
+    "lint-staged": "^15.2.10",
     "oxlint": "^0.9.3",
-    "simple-git-hooks": "^2.9.0",
     "typescript": "^5.3.3",
     "unbuild": "^1.2.1"
   },
@@ -60,9 +60,6 @@
     "extends": [
       "@commitlint/config-conventional"
     ]
-  },
-  "simple-git-hooks": {
-    "pre-commit": "pnpm lint-staged"
   },
   "lint-staged": {
     "*": "oxlint --import-plugin && eslint --fix"
