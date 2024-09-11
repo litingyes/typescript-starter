@@ -2,6 +2,7 @@
   "name": "typescript-starter",
   "type": "module",
   "version": "0.0.0",
+  "private": false,
   "description": "A typescript project startup template",
   "author": "liting-yes <luz.liting@gmail.com> (https://liting.ink/)",
   "license": "MIT",
