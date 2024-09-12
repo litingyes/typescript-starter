@@ -9,9 +9,7 @@
     "moduleResolution": "Bundler",
     "paths": {
       "@/*": ["./src/*"]
-    }
-  },
-  "exclude": [
-    "./eslint.config.js"
-  ]
+    },
+    "outDir": "./dist"
+  }
 }
