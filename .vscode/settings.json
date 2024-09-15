@@ -32,6 +32,7 @@
     "antfu",
     "bumpp",
     "changelogithub",
-    "commitlint"
+    "commitlint",
+    "preid"
   ]
 }
