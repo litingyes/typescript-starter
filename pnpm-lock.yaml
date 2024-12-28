@@ -26,6 +26,9 @@ importers:
       '@tsconfig/strictest':
         specifier: ^2.0.5
         version: 2.0.5
+      '@types/node':
+        specifier: '22'
+        version: 22.5.5
       bumpp:
         specifier: ^9.5.2
         version: 9.5.2
