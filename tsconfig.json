@@ -1,8 +1,4 @@
 {
-  "extends": [
-    "@tsconfig/node-lts/tsconfig.json",
-    "@tsconfig/strictest/tsconfig.json"
-  ],
   "compilerOptions": {
     "lib": ["DOM", "ESNext"],
     "module": "ESNext",
@@ -10,6 +6,10 @@
     "paths": {
       "@/*": ["./src/*"]
     },
-    "outDir": "./dist"
-  }
+    "strict": true,
+    "outDir": "./dist",
+    "esModuleInterop": true,
+    "isolatedModules": true
+  },
+  "include": ["./src/**/*.ts"]
 }
