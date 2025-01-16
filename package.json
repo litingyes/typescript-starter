@@ -6,9 +6,9 @@
   "description": "A typescript project startup template",
   "author": "litingyes <luz.liting@gmail.com> (https://litingyes.top/)",
   "license": "MIT",
-  "homepage": "https://github.com/liting-yes/typescript-starter#readme",
+  "homepage": "https://github.com/litingyes/typescript-starter#readme",
   "bugs": {
-    "url": "https://github.com/liting-yes/typescript-starter/issues"
+    "url": "https://github.com/litingyes/typescript-starter/issues"
   },
   "keywords": [
     "typescript",
