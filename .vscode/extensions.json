@@ -5,6 +5,7 @@
     "stringham.move-ts",
     "pmneo.tsimporter",
     "christian-kohler.path-intellisense",
-    "streetsidesoftware.code-spell-checker"
+    "streetsidesoftware.code-spell-checker",
+    "vitest.explorer"
   ]
 }

@@ -1,1 +1,3 @@
-console.warn('typescript-starter')
+export function count(num: number) {
+  return num + 1
+}
