@@ -36,7 +36,7 @@
     "test": "vitest",
     "coverage": "vitest run --coverage",
     "commit": "git-cz",
-    "prerelease": "pnpm build && pnpm test",
+    "prerelease": "pnpm build && pnpm coverage",
     "release": "bumpp && npm publish",
     "prepare": "husky"
   },
