@@ -1,5 +1,5 @@
 {
-  "name": "typescript-starter",
+  "name": "@litingyes/typescript-starter",
   "type": "module",
   "version": "0.0.0",
   "private": false,
@@ -13,7 +13,9 @@
   "keywords": [
     "typescript",
     "template",
-    "starter"
+    "starter",
+    "vite",
+    "vitest"
   ],
   "exports": {
     ".": {
