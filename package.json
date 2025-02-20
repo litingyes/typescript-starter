@@ -1,7 +1,7 @@
 {
   "name": "@litingyes/typescript-starter",
   "type": "module",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "private": false,
   "description": "A typescript project startup template",
   "author": "litingyes <luz.liting@gmail.com> (https://litingyes.top/)",
