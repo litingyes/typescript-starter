@@ -1,4 +1,17 @@
 
+## v0.2.1
+
+[compare changes](https://github.com/litingyes/typescript-starter/compare/v0.2.0...v0.2.1)
+
+### 🏡 Chore
+
+- Upgrade dependencies ([6affc76](https://github.com/litingyes/typescript-starter/commit/6affc76))
+- Remove vite ([00306a4](https://github.com/litingyes/typescript-starter/commit/00306a4))
+
+### ❤️ Contributors
+
+- Litingyes ([@litingyes](https://github.com/litingyes))
+
 ## v0.2.0
 
 [compare changes](https://github.com/litingyes/typescript-starter/compare/v0.1.0...v0.2.0)
