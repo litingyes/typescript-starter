@@ -5,6 +5,7 @@
     "changelogithub",
     "commitlint",
     "preid",
+    "tsdown",
     "unplugin"
   ],
   // Disable the default formatter, use eslint instead
