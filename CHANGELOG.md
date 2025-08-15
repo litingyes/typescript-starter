@@ -1,4 +1,20 @@
 
+## v0.2.2
+
+[compare changes](https://github.com/litingyes/typescript-starter/compare/v0.2.1...v0.2.2)
+
+### 🩹 Fixes
+
+- Update entry point in tsdown configuration to specify index.ts ([3de20ec](https://github.com/litingyes/typescript-starter/commit/3de20ec))
+
+### 🏡 Chore
+
+- **deps-dev:** Update dependencies to latest versions ([30533b3](https://github.com/litingyes/typescript-starter/commit/30533b3))
+
+### ❤️ Contributors
+
+- Litingyes ([@litingyes](https://github.com/litingyes))
+
 ## v0.2.1
 
 [compare changes](https://github.com/litingyes/typescript-starter/compare/v0.2.0...v0.2.1)
